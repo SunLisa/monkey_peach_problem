@@ -33,3 +33,7 @@ def peachfinder(peach):
     while monkeypeach(monkey, peach) <0:
         peach=peach+1
     return resultprint(monkey,peach);		
+
+
+if __name__ == "__main__":
+    peachfinder(0);
